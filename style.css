@@ -1,0 +1,157 @@
+.container {
+  width: 100%;
+}
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 1000px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: 480px;
+  }
+}
+@media screen and (max-width: 508px) {
+  .container {
+    width: 100%;
+  }
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  background-color: rgb(255, 0, 255);
+  height: 500px;
+}
+@media screen and (max-width: 508px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 0, 255);
+  height: 250px;
+  border: 10px solid #fff;
+}
+
+header {
+  border: 10px solid #fff;
+  height: 250px;
+  background-color: rgb(255, 0, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 10px solid #fff;
+  flex: 2;
+  height: 500px;
+}
+@media screen and (max-width: 508px) {
+  .sidebar {
+    flex: unset;
+    border: 10px solid #fff;
+  }
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 10px solid #fff;
+  border-left: 10px solid #fff;
+  position: relative;
+  flex: 3;
+  height: 500px;
+}
+@media screen and (max-width: 508px) {
+  .content {
+    flex: unset;
+    border: 10px solid #fff;
+  }
+}
+
+.width {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.width div:nth-child(1) {
+  display: block;
+}
+@media screen and (max-width: 1200px) {
+  .width div:nth-child(1) {
+    display: none;
+  }
+}
+
+.width div:nth-child(2) {
+  display: none;
+}
+@media screen and (max-width: 1200px) {
+  .width div:nth-child(2) {
+    display: block;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .width div:nth-child(2) {
+    display: none;
+  }
+}
+
+.width div:nth-child(3) {
+  display: none;
+}
+@media screen and (max-width: 1000px) {
+  .width div:nth-child(3) {
+    display: block;
+  }
+}
+@media screen and (max-width: 768px) {
+  .width div:nth-child(3) {
+    display: none;
+  }
+}
+
+.width div:nth-child(4) {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .width div:nth-child(4) {
+    display: block;
+  }
+}
+@media screen and (max-width: 480px) {
+  .width div:nth-child(4) {
+    display: none;
+  }
+}
+
+.width div:nth-child(5) {
+  display: none;
+}
+@media screen and (max-width: 480px) {
+  .width div:nth-child(5) {
+    display: block;
+  }
+}/*# sourceMappingURL=style.css.map */
