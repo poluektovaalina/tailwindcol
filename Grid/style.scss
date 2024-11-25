@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.hed-menu{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-column-start:3;
+}
+
+.cont{
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    li{
+
+    }
+}
